@@ -1,0 +1,160 @@
+/* =========================
+   GLOBAL
+========================= */
+body {
+    margin: 0;
+    background-color: #f4f6f9;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* =========================
+   SIDEBAR
+========================= */
+.sidebar {
+    min-height: 100vh;
+    background-color: #212529;
+}
+
+.sidebar h6 {
+    color: #ffffff;
+    border-bottom: 1px solid #444;
+}
+
+.sidebar a {
+    color: #ddd;
+    padding: 12px 16px;
+    display: block;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.sidebar a:hover {
+    background-color: #0d6efd;
+    color: #ffffff;
+}
+
+.sidebar a.active {
+    background-color: #0d6efd;
+    color: #ffffff;
+}
+
+/* =========================
+   NAVBAR
+========================= */
+.navbar {
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+/* =========================
+   CARD PRODUK
+========================= */
+.card {
+    border: none;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+}
+
+.card-img-top {
+    height: 140px;
+    object-fit: contain; /* gambar tidak terpotong */
+    background-color: #f8f9fa;
+    padding: 10px;
+}
+
+/* =========================
+   FORM
+========================= */
+.form-control {
+    border-radius: 6px;
+}
+
+button {
+    border-radius: 6px;
+}
+
+/* =========================
+   TABLE
+========================= */
+.table th {
+    text-align: center;
+}
+
+.table td {
+    vertical-align: middle;
+}
+
+/* =========================
+   LOGIN PAGE
+========================= */
+.card.mx-auto {
+    box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+}
+
+/* =========================
+   TRANSAKSI PAGE
+========================= */
+
+/* Judul Transaksi */
+.transaksi-title {
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #212529;
+}
+
+/* Card Form Transaksi */
+.form-transaksi {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    margin-bottom: 25px;
+}
+
+/* Input Total lebih menonjol */
+#total {
+    background-color: #e9f2ff;
+    font-weight: bold;
+    color: #0d6efd;
+}
+
+/* Tombol simpan */
+.form-transaksi button {
+    padding: 8px 20px;
+    font-weight: 600;
+}
+
+/* Tabel transaksi */
+.table {
+    background-color: #ffffff;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.table thead {
+    background-color: #212529;
+    color: #ffffff;
+}
+
+.table tbody tr:hover {
+    background-color: #f1f5ff;
+}
+
+/* Error message */
+#error {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/* =========================
+   LOGO LOGIN
+========================= */
+.logo-login {
+    width: 45px;        /* ukuran kecil & rapi */
+    height: auto;       /* proporsi tidak rusak */
+}
+
